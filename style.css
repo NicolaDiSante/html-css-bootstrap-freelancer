@@ -1,0 +1,57 @@
+* {
+  text-align: center;
+}
+
+.w-90 {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.w-80{
+  width: 80%;
+  margin: 20px auto;
+}
+
+.w-60 {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.w-50 {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.azure {
+  background: rgb(32, 173, 173);
+}
+
+.blue {
+  background-color: rgb(66, 66, 156);
+}
+
+.white {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.green {
+  background-color: rgb(24, 185, 110);
+}
+
+.container.white .row.w-80 [class*="col-"] {
+  height: 100px;
+  background-color: red;
+}
+
+.container.white {
+  margin-bottom: 20px;
+}
+
+@media all and (max-width: 767px) {
+  .container.white .row.w-80 {
+    width: 100%;
+  }
+}
+  
+  
+
