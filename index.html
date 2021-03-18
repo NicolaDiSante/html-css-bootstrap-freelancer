@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -58,7 +59,21 @@
       <div class="nds-jumbotron text-center">
         <img src="img/avatar.svg" alt="avatar">
         <h1>START BOOTSTRAP</h1>
-        <p><span class="glyphicon glyphicon-star" aria-hidden="true"></span></p>
+
+        <div class="container-fluid">
+          <div class="row  text-center">
+            <div class="col-xs-4">
+              <div class="stripe"></div>
+            </div>
+            <div class="col-xs-4">
+              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            </div>
+           <div class="col-xs-4">
+             <div class="stripe"></div>
+           </div> 
+          </div>
+        </div>
+        
         <h2>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h2>
       </div>
 
@@ -75,7 +90,16 @@
         <div class="row">
           <div class="col-xs-12 text-center nds-margin-bottom-20 ">
             <h2>PORTFOLIO</h2>
-            <p><span class="glyphicon glyphicon-star" aria-hidden="true"></span></p>
+            <div class="col-xs-4">
+             <div class="stripe two"></div>
+            </div>
+            <div class="col-xs-4">
+              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            </div>
+           <div class="col-xs-4">
+             <div class="stripe two"></div>
+           </div> 
+            
           </div>
         </div>
 
@@ -120,13 +144,25 @@
         <div class="row">
           <div class="col-xs-12 text-center nds-margin-bottom-20">
             <h2>ABOUT</h2>
-            <p><span class="glyphicon glyphicon-star" aria-hidden="true"></span></p>
+            <div class="container-fluid">
+              <div class="row  text-center">
+                <div class="col-xs-4">
+                  <div class="stripe"></div>
+                </div>
+                <div class="col-xs-4">
+                  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                </div>
+               <div class="col-xs-4">
+                 <div class="stripe"></div>
+               </div> 
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="nds-wrapper-60">
-        <div class="container-fluid">   <!-- uso container fluid perchè occupa tutto spazio -->
+        <div class="container-fluid">  
           <div class="row">
             <div class="col-xs-12 col-sm-6">
               <p>Freelancer is a free Boootstrap theme created by Start Bootstrap. The download includes the complete source files including HTMLS, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
@@ -141,7 +177,12 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12 text-center">
-            <button class="download">Download</button>
+            <button class="download">
+             
+              
+              <span class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span>
+              Download
+            </button>
           </div>
         </div>
       </div>
@@ -154,7 +195,15 @@
         <div class="row">
           <div class="col-xs-12 text-center nds-margin-bottom-20">
             <h2>CONTACT ME</h2>
-            <p><span class="glyphicon glyphicon-star" aria-hidden="true"></span></p>
+            <div class="col-xs-4">
+              <div class="stripe two"></div>
+             </div>
+             <div class="col-xs-4">
+               <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+             </div>
+            <div class="col-xs-4">
+              <div class="stripe two"></div>
+            </div> 
           </div>
         </div>
       </div>
@@ -206,10 +255,10 @@
           </div>
           <div class="col-xs-12 col-md-4">
             <h2>AROUND THE WEB</h2>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-google-plus-g"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-linkedin-in"></i>
           </div>
           <div class="col-xs-12 col-md-4">
             <h2>ABOUT FREELANCER</h2>
@@ -219,11 +268,11 @@
       </div>
     </div>
 
-    <div class="nds-footer-bottom nds-padding-80">
+    <div class="nds-footer-bottom  nds-padding-40 ">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 text-center">
-            <p>Copy</p>
+            <p>Copyright <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> your website 2019</p>
           </div>
         </div>
       </div>
